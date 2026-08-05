@@ -1,0 +1,34 @@
+[
+  {
+    "name": "joy",
+    "description": "Feeling happy, fulfilled, or excited."
+  },
+  {
+    "name": "sadness",
+    "description": "Feeling down, disappointed, or emotionally hurt."
+  },
+  {
+    "name": "loneliness",
+    "description": "Feeling isolated or disconnected from others."
+  },
+  {
+    "name": "love",
+    "description": "Feeling affection, care, and deep connection."
+  },
+  {
+    "name": "hope",
+    "description": "Believing things can improve."
+  },
+  {
+    "name": "anxiety",
+    "description": "Feeling worried or uncertain about the future."
+  },
+  {
+    "name": "grief",
+    "description": "Emotional pain after losing someone or something important."
+  },
+  {
+    "name": "fear",
+    "description": "Feeling threatened or scared."
+  }
+]

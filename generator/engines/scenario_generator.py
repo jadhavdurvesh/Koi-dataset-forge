@@ -2,7 +2,7 @@ import json
 import random
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 with open(BASE_DIR / "configs" / "scenarios.json", encoding="utf-8") as f:
     SCENARIOS = json.load(f)

@@ -1,0 +1,30 @@
+[
+    {
+        "emotion": "loneliness",
+        "situation": "friendship",
+        "examples": [
+            "Everyone in my friend group went out without telling me.",
+            "I feel invisible even when I'm surrounded by people.",
+            "Nobody messages me unless I text first.",
+            "I always feel like the extra person."
+        ]
+    },
+    {
+        "emotion": "anxiety",
+        "situation": "school",
+        "examples": [
+            "I have an important exam tomorrow and I can't stop worrying.",
+            "I'm scared I'll disappoint everyone.",
+            "I feel nervous every time the teacher asks me a question."
+        ]
+    },
+    {
+        "emotion": "hope",
+        "situation": "dreams",
+        "examples": [
+            "I finally started working toward my dream.",
+            "Today felt like a fresh beginning.",
+            "Maybe things will get better after all."
+        ]
+    }
+]

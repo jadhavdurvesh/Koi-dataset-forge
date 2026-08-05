@@ -2,7 +2,11 @@ import json
 import random
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+from pathlib import Path
+import json
+import random
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 CONFIG_DIR = BASE_DIR / "configs"
 
 
