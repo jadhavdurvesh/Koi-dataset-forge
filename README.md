@@ -157,7 +157,7 @@ Whether you're improving conversation quality, expanding emotional coverage, fix
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under The DMJ Community License (DCL)
 
 ---
 
