@@ -84,20 +84,42 @@ The goal is to create one of the most comprehensive open emotional conversation 
 
 ---
 
-# 🏗️ Project Structure
+# 🏗️ Project Architecture
+
+KOI Dataset Forge is built using a modular pipeline architecture. Each component has a single responsibility, making the project easier to maintain, test, and extend.
 
 ```text
 koi-dataset-forge/
 │
-├── configs/
-├── datasets/
-├── docs/
-├── prompts/
+├── configs/                 # Configuration files
+│   ├── emotions/
+│   ├── intents/
+│   ├── needs/
+│   ├── scenario_parts/
+│   └── styles/
+│
+├── datasets/                # Generated datasets
+│   ├── raw/
+│   ├── reviewed/
+│   ├── final/
+│   ├── archive/
+│   └── manifests/
+│
+├── docs/                    # Documentation
+│   ├── architecture/
+│   ├── dataset/
+│   └── development/
 │
 ├── generator/
-│   ├── core/
-│   ├── engines/
-│   └── generate.py
+│   ├── pipeline/            # Main generation workflow
+│   ├── builders/            # Dataset builders
+│   ├── engines/             # AI generation engines
+│   ├── managers/            # Dataset & ID management
+│   ├── core/                # Core utilities
+│   └── utils/               # Shared helper functions
+│
+├── prompts/                 # Prompt templates
+├── tests/                   # Unit tests
 │
 ├── README.md
 ├── LICENSE
@@ -105,6 +127,84 @@ koi-dataset-forge/
 ```
 
 ---
+
+## 📦 Module Overview
+
+### Pipeline
+
+The pipeline coordinates the complete dataset generation process.
+
+Responsibilities:
+
+- Start dataset generation
+- Execute each engine in order
+- Validate generated samples
+- Export finished datasets
+
+---
+
+### Builders
+
+Builders create structured metadata used throughout the generation process.
+
+Examples:
+
+- Emotional Blueprint Builder
+- Template Builder
+- Metadata Builder
+
+---
+
+### Engines
+
+Engines generate the content of the dataset.
+
+Current and planned engines include:
+
+- Life Engine
+- Scenario Engine
+- Response Engine
+- Emotion Engine
+- Personality Engine
+
+---
+
+### Managers
+
+Managers keep track of the project's internal state.
+
+Examples:
+
+- Dataset IDs
+- Statistics
+- Dataset versions
+- Session management
+
+---
+
+### Core
+
+Core contains reusable functionality shared across the project.
+
+Examples:
+
+- Exporter
+- Validator
+- Duplicate detection
+
+---
+
+### Utils
+
+Utility functions that are shared by multiple modules.
+
+Examples:
+
+- JSON helpers
+- File utilities
+- Logging
+- Formatting
+
 
 # 🚀 Roadmap
 
@@ -137,13 +237,41 @@ koi-dataset-forge/
 
 ---
 
-# 🌸 Philosophy
+# 🌸 KOI Philosophy
 
-KOI Dataset Forge is guided by a simple principle:
+> **Every heart has a story worth understanding.**
 
-> AI should understand emotions without pretending to experience them.
+KOI believes that emotions do not exist in isolation.
 
-The goal is not to imitate human feelings, but to better recognize emotional context and respond with clarity, empathy, and respect.
+Behind every emotion is an experience.
+
+Behind every experience is a person.
+
+Rather than generating isolated conversations, KOI Hearts generates emotionally grounded human stories.
+
+Each dataset sample is built from a complete emotional context:
+
+```
+Person
+    ↓
+Life Profile
+    ↓
+Life Experience
+    ↓
+Current Situation
+    ↓
+Emotion
+    ↓
+Need
+    ↓
+Intent
+    ↓
+Communication Style
+    ↓
+Compassionate Response
+```
+
+This philosophy allows KOI to learn not only what people say, but why they say it and how thoughtful responses can be shaped by context.
 
 ---
 
