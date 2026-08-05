@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="KOI Dataset Forge Banner" width="100%">
+</p>
+
 # 🌸 KOI Dataset Forge
 
 > **Every heart has a story worth understanding.**
