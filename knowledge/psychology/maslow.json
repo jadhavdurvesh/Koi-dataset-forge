@@ -1,0 +1,47 @@
+{
+  "levels": [
+    {
+      "name": "Physiological",
+      "needs": [
+        "Food",
+        "Water",
+        "Sleep",
+        "Health"
+      ]
+    },
+    {
+      "name": "Safety",
+      "needs": [
+        "Security",
+        "Stability",
+        "Protection"
+      ]
+    },
+    {
+      "name": "Love and Belonging",
+      "needs": [
+        "Friendship",
+        "Connection",
+        "Acceptance",
+        "Love"
+      ]
+    },
+    {
+      "name": "Esteem",
+      "needs": [
+        "Confidence",
+        "Achievement",
+        "Recognition",
+        "Respect"
+      ]
+    },
+    {
+      "name": "Self-Actualization",
+      "needs": [
+        "Growth",
+        "Purpose",
+        "Creativity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "primary_emotions": [
+    {
+      "name": "Joy",
+      "opposite": "Sadness",
+      "description": "Feeling happiness, pleasure, or delight."
+    },
+    {
+      "name": "Trust",
+      "opposite": "Disgust",
+      "description": "Feeling acceptance, safety, and confidence."
+    },
+    {
+      "name": "Fear",
+      "opposite": "Anger",
+      "description": "Feeling threatened or uncertain."
+    },
+    {
+      "name": "Surprise",
+      "opposite": "Anticipation",
+      "description": "Reaction to something unexpected."
+    },
+    {
+      "name": "Sadness",
+      "opposite": "Joy",
+      "description": "Feeling loss, disappointment, or grief."
+    },
+    {
+      "name": "Disgust",
+      "opposite": "Trust",
+      "description": "Feeling rejection or aversion."
+    },
+    {
+      "name": "Anger",
+      "opposite": "Fear",
+      "description": "Feeling frustration or injustice."
+    },
+    {
+      "name": "Anticipation",
+      "opposite": "Surprise",
+      "description": "Looking forward to future events."
+    }
+  ]
+}

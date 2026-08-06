@@ -1,0 +1,32 @@
+{
+  "child": [
+    "Primary School Student"
+  ],
+
+  "teen": [
+    "High School Student",
+    "Diploma Student",
+    "Student Athlete",
+    "Part-time Worker"
+  ],
+
+  "young_adult": [
+    "University Student",
+    "Software Engineer",
+    "Freelancer",
+    "Artist",
+    "Teacher",
+    "Nurse",
+    "Research Assistant"
+  ],
+
+  "adult": [
+    "Engineer",
+    "Doctor",
+    "Teacher",
+    "Business Owner",
+    "Manager",
+    "Farmer",
+    "Writer"
+  ]
+}

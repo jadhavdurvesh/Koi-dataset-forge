@@ -1,0 +1,23 @@
+{
+  "child": [
+    "Primary School"
+  ],
+
+  "teen": [
+    "Middle School",
+    "High School",
+    "Diploma"
+  ],
+
+  "young_adult": [
+    "College",
+    "University",
+    "Graduate"
+  ],
+
+  "adult": [
+    "Graduate",
+    "Postgraduate",
+    "Professional"
+  ]
+}

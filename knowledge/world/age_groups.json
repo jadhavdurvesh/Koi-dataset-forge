@@ -1,0 +1,22 @@
+[
+    {
+        "group": "child",
+        "min": 8,
+        "max": 12
+    },
+    {
+        "group": "teen",
+        "min": 13,
+        "max": 19
+    },
+    {
+        "group": "young_adult",
+        "min": 20,
+        "max": 30
+    },
+    {
+        "group": "adult",
+        "min": 31,
+        "max": 60
+    }
+]
