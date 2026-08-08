@@ -1,0 +1,58 @@
+{
+  "joy": {
+    "needs": ["connection", "belonging", "validation"],
+    "intents": ["sharing_happiness", "celebrating", "self_expression"],
+    "communication_styles": ["hopeful", "direct", "emotional"],
+    "response_styles": ["warm", "celebratory", "encouraging"],
+    "secondary_emotions": ["gratitude", "pride", "none"]
+  },
+  "sadness": {
+    "needs": ["comfort", "understanding", "validation"],
+    "intents": ["venting", "seeking_understanding", "reflecting"],
+    "communication_styles": ["hesitant", "reserved", "emotional"],
+    "response_styles": ["gentle", "warm", "reflective"],
+    "secondary_emotions": ["loneliness", "hope", "none"]
+  },
+  "loneliness": {
+    "needs": ["connection", "belonging", "understanding"],
+    "intents": ["venting", "seeking_understanding", "asking_for_help"],
+    "communication_styles": ["reserved", "hesitant", "confused"],
+    "response_styles": ["warm", "gentle", "encouraging"],
+    "secondary_emotions": ["sadness", "hope", "none"]
+  },
+  "love": {
+    "needs": ["connection", "belonging", "validation"],
+    "intents": ["sharing_happiness", "self_expression", "reflecting"],
+    "communication_styles": ["emotional", "hopeful", "direct"],
+    "response_styles": ["warm", "encouraging"],
+    "secondary_emotions": ["gratitude", "joy", "none"]
+  },
+  "hope": {
+    "needs": ["encouragement", "guidance", "validation"],
+    "intents": ["reflecting", "seeking_advice", "self_expression"],
+    "communication_styles": ["hopeful", "calm", "reflective"],
+    "response_styles": ["encouraging", "warm", "reflective"],
+    "secondary_emotions": ["fear", "gratitude", "none"]
+  },
+  "anxiety": {
+    "needs": ["comfort", "guidance", "validation"],
+    "intents": ["seeking_advice", "venting", "asking_for_help", "questioning"],
+    "communication_styles": ["hesitant", "confused", "emotional"],
+    "response_styles": ["calm", "gentle", "reflective"],
+    "secondary_emotions": ["fear", "confusion", "none"]
+  },
+  "grief": {
+    "needs": ["comfort", "understanding", "forgiveness", "acceptance"],
+    "intents": ["processing_loss", "venting", "reflecting"],
+    "communication_styles": ["reserved", "emotional", "hesitant"],
+    "response_styles": ["gentle", "warm", "reflective"],
+    "secondary_emotions": ["sadness", "hope", "none"]
+  },
+  "fear": {
+    "needs": ["comfort", "guidance", "validation"],
+    "intents": ["venting", "asking_for_help", "questioning"],
+    "communication_styles": ["hesitant", "confused", "emotional"],
+    "response_styles": ["calm", "gentle", "encouraging"],
+    "secondary_emotions": ["anxiety", "confusion", "none"]
+  }
+}
