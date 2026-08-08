@@ -5,8 +5,9 @@ from pathlib import Path
 # Base directory of the project
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-# Life configuration directory
-LIFE_DIR = BASE_DIR / "configs" / "life"
+# Life configuration lives in the knowledge layer, not configs/life
+# (that folder never existed — this was pointing at a dead path).
+LIFE_DIR = BASE_DIR / "knowledge" / "world"
 
 
 def load(filename):
